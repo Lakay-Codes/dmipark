@@ -10,7 +10,7 @@
             <div class="row">
                 <div class=" col-md-12 col-sm-12 col-xs-12">
                     <div class="section-title text-center ">
-                        <h1>Coming soon to IOS, Android &amp; Windows</h1>
+                        <h1>Coming soon to IOS &amp; Android</h1>
                     </div>
                 </div>
             </div>
@@ -22,8 +22,6 @@
                                             class="appimgtext">App Store</span></a></li>
                             <li><a href=""><img src="<?=url('/')?>/style/assets/img/googleplay-icon.svg" alt="" class="google-play"> <span
                                             class="appimgtext google">Google play</span></a></li>
-                            <li><a href=""><img src="<?=url('/')?>/style/assets/img/windows-icon.png" alt=""> <span
-                                            class="appimgtext">Windows</span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -72,7 +70,7 @@
                                 <div class="col-md-12 col-sm-12">
                                     <div class="footer-wid-select">
                                         <select name="" id="">
-                                            <option>USD</option>
+                                            <option>PHP</option>
                                         </select>
                                     </div>
                                 </div>
@@ -81,7 +79,7 @@
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-4">
                         <div class="footer-wid">
-                            <h3 class="footer-wid-title">MUZBNB</h3>
+                            <h3 class="footer-wid-title">DMIPARK</h3>
                             <ul>
                                 <li><a href="<?=route('about')?>">About</a></li>
                                 <li><a href="<?=route('blog')?>">Blog</a></li>
@@ -97,7 +95,7 @@
                             <ul>
                                 <li><a href="<?=route('become-a-host')?>">Become a Host</a></li>
                                 <li><a href="javascript:;" class="signup-btn">Sign Up</a></li>
-                                <?php /* <li><a href="">City Guides</a></li> */ ?> 
+                                <?php /* <li><a href="">City Guides</a></li> */ ?>
 
                                <li><a href="{{ route('invite') }}">Invite</a></li>
 
@@ -109,8 +107,8 @@
                         <div class="footer-wid">
                             <h3 class="footer-wid-title">HELP CENTER</h3>
                             <ul>
-                               
-                                <li><a href="mailto:salaam@muzbnb.com">Contact</a></li>
+
+                                <li><a href="mailto:admin@dmipark.com">Contact</a></li>
 
                                 <li><a href="/terms-of-services">Terms of Service</a></li>
                                 <li><a href="<?=route('standards')?>">Our Standards</a></li>
@@ -125,7 +123,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12 footertext">
-                        <a>Copyright © 2017 Muzbnb. All rights reserved.</a>
+                        <a>Copyright © 2021 DMIpark. All rights reserved.</a>
                     </div>
                 </div>
             </div>
