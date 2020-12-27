@@ -39,7 +39,7 @@
                             <div class="row">
                                 <div class="col-md-11 col-md-offset-1 col-sm-12 col-xs-12 slider-text">
                                     <h1>Parking Reservation Simplified</h1>
-                                    <p>Rent welcoming &amp; affordable parking slots <br/>from amazing neighbors</p>
+                                    <p>Affordable parking slots <br/>from amazing neighbors</p>
                                     @if(!auth()->user())
                                     <div class="muzbnb-btn">
                                         <a href="javascript:;" class="slide-btn signup-btn">Get Started – Sign Up</a>
@@ -172,149 +172,6 @@
         </div>
     </section>
 
-    <div class="muzbnb-content-block text-center big-bg-section">
-        <div class="container-fluid coutomwidth">
-            <div class="row big-bg-title">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="section-title">
-                        <h1>A Neigborhood Community Starting <br/> a Parking Revolution</h1>
-                        <p>Join this growing community of Motorists, parking hosts and adventurers.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row big-bg-box">
-                <div class="travel-revolution slider">
-                    <div class="item-box">
-                        <div class="col-md-12 col-sm-12 col-xs-12">
-                            <div class="bg-one bg-fix"><img class="traveler_color" src="{{ url('style/assets') }}/img/traveler_color.png" alt=""></div>
-                        </div>
-                    </div>
-                    <div class="item-box">
-                        <div class="col-md-12 col-sm-12 col-xs-12">
-                            <div class="bg-one bg-fix"><img class="community_color" src="{{ url('style/assets') }}/img/community_color.png" alt=""></div>
-                        </div>
-                    </div>
-                    <div class="item-box">
-                        <div class="col-md-12 col-sm-12 col-xs-12">
-                            <div class="bg-one bg-fix"><img class="traveler_color" src="{{ url('style/assets') }}/img/home-middleslide-4.png" alt=""></div>
-                        </div>
-                    </div>
-                    <div class="item-box">
-                        <div class="col-md-12 col-sm-12 col-xs-12">
-                            <div class="bg-one bg-fix"><img class="hosts_color" src="{{ url('style/assets') }}/img/hosts_color.png" alt=""></div>
-                        </div>
-                    </div>
-                    <div class="item-box">
-                        <div class="col-md-12 col-sm-12 col-xs-12">
-                            <div class="bg-one bg-fix"><img class="traveler_color" src="{{ url('style/assets') }}/img/traveler_color.png" alt=""></div>
-                        </div>
-                    </div>
-                    <div class="item-box">
-                        <div class="col-md-12 col-sm-12 col-xs-12">
-                            <div class="bg-one bg-fix"><img class="community_color" src="{{ url('style/assets') }}/img/community_color.png" alt=""></div>
-                        </div>
-                    </div>
-                    <div class="item-box">
-                        <div class="col-md-12 col-sm-12 col-xs-12">
-                            <div class="bg-one bg-fix"><img class="traveler_color" src="{{ url('style/assets') }}/img/home-middleslide-4.png" alt=""></div>
-                        </div>
-                    </div>
-                    <div class="item-box">
-                        <div class="col-md-12 col-sm-12 col-xs-12">
-                            <div class="bg-one bg-fix"><img class="hosts_color" src="{{ url('style/assets') }}/img/hosts_color.png" alt=""></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="slick-content-container">
-                    <div class="slick-content-wrapper">
-                        <div class="slider slider-for slick--next">
-                            <div>
-                                <div class="top-section">
-                                    <p>DMIPARK IS FOR</p>
-                                    <h1>
-                                        <span class="red">Neighbors </span>
-                                        <span class="black">who cares for</span>
-                                        <span class="red">Fellow Neighbors</span>
-                                    </h1>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="top-section">
-                                    <p>DMIPARK IS FOR</p>
-                                    <h1>
-                                        <span class="blue">Communities</span>
-                                        <span class="black">who love to</span>
-                                        <span class="blue">Share and Earn</span>
-                                    </h1>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="top-section">
-                                    <p>DMIPARK IS FOR</p>
-                                    <h1>
-                                        <span class="red">Travelling Visitors</span>
-                                        <span class="black">who appreciate</span>
-                                        <span class="red">Comfort and Safety</span>
-                                    </h1>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="top-section">
-                                    <p>DMIPARK IS FOR</p>
-                                    <h1>
-                                        <span class="blue">Hosts</span>
-                                        <span class="black">who enjoy creating</span>
-                                        <span class="blue">Experiences</span>
-                                    </h1>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="top-section">
-                                    <p>DMIPARK IS FOR</p>
-                                    <h1>
-                                        <span class="red">Travelling Visitors</span>
-                                        <span class="black">who live for</span>
-                                        <span class="red">Adventure</span>
-                                    </h1>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="top-section">
-                                    <p>DMIPARK IS FOR</p>
-                                    <h1>
-                                        <span class="blue">Communities</span>
-                                        <span class="black">who love to</span>
-                                        <span class="blue">Connect</span>
-                                    </h1>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="top-section">
-                                    <p>DMIPARK IS FOR</p>
-                                    <h1>
-                                        <span class="red">Travelling Visitors </span>
-                                        <span class="black">who appreciate</span>
-                                        <span class="red">Comfort and Safety </span>
-                                    </h1>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="top-section">
-                                    <p>DMIPARK IS FOR</p>
-                                    <h1>
-                                        <span class="blue">Hosts</span>
-                                        <span class="black">who enjoy creating</span>
-                                        <span class="blue">Experiences</span>
-                                    </h1>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <div class="text-center">
         <div class="muzbnb-content-block section-bg-3 bgfix marfix">
@@ -324,7 +181,7 @@
                         <div class="section-title text-center">
                             <h3>With DMIPARK<sup>TM</sup>, finding a parking space to rent when you travel is a thing of the past</h3>
                         </div>
-                        <p>Join us today as we revive the tradition of smoothly sharing parking lots.</p>
+                        <p>Join us today as we start a parking revolution of seamlessly sharing parking lots.</p>
                         <div class="signup-button">
                             <div class="cta-red-btn"><a href="javascript:;"  class="muzbnn-btn signup-btn">SIGN UP TODAY</a></div>
                         </div>
