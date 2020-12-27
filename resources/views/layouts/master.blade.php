@@ -5,30 +5,6 @@
 
     @if(\Route::currentRouteName() != 'congrats')
 
-    <div class="muzbnb-content-block ff footer-apps-wrap">
-        <div class="container">
-            <div class="row">
-                <div class=" col-md-12 col-sm-12 col-xs-12">
-                    <div class="section-title text-center ">
-                        <h1>Coming soon to IOS &amp; Android</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="footer-apps">
-                        <ul>
-                            <li><a href=""><img src="<?= url('/') ?>/style/assets/img/apple-icon.svg" alt=""> <span
-                                            class="appimgtext">App Store</span></a></li>
-                            <li><a href=""><img src="<?=url('/')?>/style/assets/img/googleplay-icon.svg" alt="" class="google-play"> <span
-                                            class="appimgtext google">Google play</span></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="muzbnb-content-block socio footer-social-wrap">
         <div class="container">
             <div class="row">
@@ -83,8 +59,6 @@
                             <ul>
                                 <li><a href="<?=route('about')?>">About</a></li>
                                 <li><a href="<?=route('blog')?>">Blog</a></li>
-                                <li><a href="<?=route('press')?>">Press</a></li>
-                                <li><a href="<?=route('ambassadors')?>">Ambassadors</a></li>
                                 {{--<li><a href="">Events</a></li>--}}
                             </ul>
                         </div>
@@ -96,9 +70,7 @@
                                 <li><a href="<?=route('become-a-host')?>">Become a Host</a></li>
                                 <li><a href="javascript:;" class="signup-btn">Sign Up</a></li>
                                 <?php /* <li><a href="">City Guides</a></li> */ ?>
-
                                <li><a href="{{ route('invite') }}">Invite</a></li>
-
                                 <?php /* <li><a href="">How It Works</a></li> */ ?>
                             </ul>
                         </div>

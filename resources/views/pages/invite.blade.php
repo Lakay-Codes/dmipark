@@ -22,7 +22,7 @@
             <div class="header-text ">
                 <h1 class="">
                     Invite friends to<br/>
-                    join Muzbnb & earn!
+                    join DMIpark & earn!
                 </h1>
                 <p class="">
                     You can earn rewards simply by<br />
@@ -87,9 +87,9 @@
                 <div class="row">
                     <div class="col-sm-12 col-sm-offset-0 col-xs-offset-1 col-xs-10">
                         <div class="row">
-                            <div class="col-sm-4"><p><img src="/style/assets/img/icon/box-up.jpg"> Refer your friends to Muzbnb with your link or via email.</p></div>
-                            <div class="col-sm-4"><p><img src="/style/assets/img/icon/briefcase.jpg"> Get $10 when they take their first trip of $75 or more.</p></div>
-                            <div class="col-sm-4"><p><img src="/style/assets/img/icon/handshake.jpg"> Get $10 when they welcome their first guest.</p></div>
+                            <div class="col-sm-4"><p><img src="/style/assets/img/icon/box-up.jpg"> Refer your friends to DMIpark with your link or via email.</p></div>
+                            <div class="col-sm-4"><p><img src="/style/assets/img/icon/briefcase.jpg"> Get P10 when they take their first book of P250 or more.</p></div>
+                            <div class="col-sm-4"><p><img src="/style/assets/img/icon/handshake.jpg"> Get P10 when they welcome their first guest.</p></div>
                         </div>
                     </div>
                 </div>

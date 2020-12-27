@@ -10,7 +10,7 @@
     <!-- Mobile -->
     {{--<link rel="stylesheet" href="{{ asset('css/responsive.css') }}">--}}
     @php
-        $socialShareText = 'Hey, I just listed my home on Muzbnb! Please check it out! :) ';
+        $socialShareText = 'Hey, I just listed my parking lot on DMIpark.com! Please check it out! :) ';
         $url = \URL::to('/') . '/rooms/' . $listing->id;
         $socialShareText = $socialShareText . $url;
     @endphp

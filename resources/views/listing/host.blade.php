@@ -37,7 +37,7 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="host_banner_info become_a_host_btn">
-                        <h1>List Your Home With<br>Muzbnb Today & Earn!</h1>
+                        <h1>List Your Parking Lot With<br>DMIpark Today & Earn!</h1>
                         <p>Listing with us is super easy,fun and rewarding.</p>
                         {!!  $listingLink !!}
                     </div>
@@ -52,7 +52,7 @@
                     <span>1</span>
                 </p>
                 <h3 class="text-center">
-                    List your home
+                    List your parking lot
                 </h3>
                 <h4>
                     Begin by creating a profile for your place with all relevant information.
@@ -62,7 +62,7 @@
                 <div class="img-section text-center">
                     <img src="{{url('')}}/style/assets/img/1.png" alt="" class="image-icon">
 
-                    <p >Make sure your home stands out with detailed information, beautiful photos and a reasonable price.</p>
+                    <p >Make sure you indiacate the detailed information like parking unit number, location a reasonable price.</p>
                     <span class="separator-host"></span>
                 </div>
             </div>
@@ -70,7 +70,7 @@
                 <div class="img-section text-center">
                     <img src="{{url('')}}/style/assets/img/2..png" alt="" class="image-icon">
 
-                    <p>Host also have the option to showcase the unique amenities their home offers, making it a guest's dream.</p>
+                    <p>Default pricing mechanism is selected when no pricing has beeen entered.</p>
                     <span class="separator-host"></span>
                 </div>
             </div>
@@ -78,7 +78,7 @@
                 <div class="img-section text-center">
                     <img src="{{url('')}}/style/assets/img/3..png" alt="" class="image-icon">
 
-                    <p>You will also set the dates that your home is available for rent, house rules and further specifications.</p>
+                    <p>You will also set the dates and time that your parking lot is available for rent, house rules and further specifications.</p>
                 </div>
             </div>
         </div>
@@ -89,8 +89,8 @@
                 {{--<span></span>--}}
                 {{--<h2>What's in a listing?</h2>--}}
                 {{--<p>You'll fill out a description,take and upload--}}
-                    {{--photos,and pick a price.Your listing helps--}}
-                    {{--guest get a sense of what your placeis like.--}}
+                    {{--a resonable price.Your listing helps--}}
+                    {{--guest get a sense of what your parking like.--}}
                 {{--</p>--}}
             {{--</div>--}}
             {{--<div class="col-md-4">--}}
@@ -118,9 +118,9 @@
                     <span>2</span>
                 </p>
                 <h3 class="text-center">
-                    Guest find your home and request to book
+                    Guest find your parking and request to book
                 </h3>
-                <h4>Once a guest comes across your listing, they’ll request to book your place for specified dates.</h4>
+                <h4>Once a guest comes across your listing, they’ll request to book your parking lot for specified dates and times.</h4>
             </div>
             <div class="col-md-4">
                 <div class="img-section text-center">
@@ -142,7 +142,7 @@
                 <div class="img-section text-center">
                     <img src="{{url('')}}/style/assets/img/6.png" alt="" class="image-icon">
 
-                    <p>If you accept, you will make plans to receive the guest according to our Host ethics guidelines.</p>
+                    <p>If you accept, an email notification is sent to the property management office for the car information to be forwarded to the security office.</p>
                 </div>
             </div>
         </div>
@@ -183,15 +183,14 @@
                     <span>3</span>
                 </p>
                 <h3 class="text-center">
-                    Your guest arrives!
+                    Your guest arrives and parks!
                 </h3>
-                <h4>This is where your superb hospitality is on full-display. Show them what you’re made of!</h4>
             </div>
             <div class="col-md-4">
                 <div class="img-section text-center">
                     <img src="{{url('')}}/style/assets/img/7.png" alt="" class="image-icon">
 
-                    <p>Everything you’ve done previously should lead up to a smooth stay for your guest.</p>
+                    <p>Nothing else to be done. Processing is automated.</p>
                     <span class="separator-host"></span>
                 </div>
             </div>
@@ -207,7 +206,7 @@
                 <div class="img-section text-center">
                     <img src="{{url('')}}/style/assets/img/9.png" alt="" class="image-icon">
 
-                    <p>Your payment is automatically deposited into the account of your choosing 24 hours after your guest’s check-in date. Muzbnb charges 7.5% host service fee on each reservation.</p>
+                    <p>Your payment is automatically deposited into the account of your choosing 24 hours after your guest’s check-in date. DMIpark charges 7.5% host service fee on each reservation.</p>
                 </div>
             </div>
         </div>

@@ -39,9 +39,8 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="about_banner_info">
-                        <h1>List Your Home With<br>Muzbnb Today & Earn!</h1>
-                        <p>Listing with us is super easy,fun and<br> rewarding.</p>
-
+                        <h1>List Your Parking Lot With<br>DMIpark Today & Earn!</h1>
+                        <p>Listing with us is super easy,fun and rewarding.</p>
                         {!!  $listingLink !!}
                     </div>
                 </div>
@@ -64,12 +63,12 @@
                     <div class="row">
                         <div class="col-sm-12 col-md-6">
                             <div class="host-first-left">
-                                <h2 id="list">List your home</h2>
+                                <h2 id="list">List your parking lot</h2>
                                 <h3>Begin by creating a profile for your place with all relevant information.</h3>
                                 <ul>
-                                    <li>Make sure your home stands out with detailed information, beautiful photos and a reasonable price</li>
-                                    <li>Host also have the option to showcase the unique amenities their home offers, making it a guest's dream.</li>
-                                    <li>You will also set the dates that your home is available for rent, house rules and further specifications.</li>
+                                    <li>Make sure you entered all detailed information like parking unit number a reasonable price</li>
+                                    <li>Default pricing mechanism is selected when no pricing has beeen entered.</li>
+                                    <li>You will also set the dates that your parking lot is available for rent, house rules and further specifications.</li>
                                 </ul>
                             </div>
                         </div>
@@ -89,7 +88,7 @@
                                                 {{--<div class="col-xs-6 col-sm-6 col-md-6">--}}
                                                     {{--<div class="dashboard-left">--}}
                                                         {{--<img src="images/sec1image1.png"/>--}}
-                                                        {{--<h2>Adil Ahmed</h2>--}}
+                                                        {{--<h2>Juan dela Cruz</h2>--}}
                                                         {{--<ul>--}}
                                                             {{--<li><i class="fa fa-star" aria-hidden="true"></i></li>--}}
                                                             {{--<li><i class="fa fa-star" aria-hidden="true"></i></li>--}}
@@ -97,14 +96,14 @@
                                                             {{--<li><i class="fa fa-star" aria-hidden="true"></i></li>--}}
                                                             {{--<li><i class="fa fa-star" aria-hidden="true"></i></li>--}}
                                                         {{--</ul>--}}
-                                                        {{--<p>"My beautiful home in Dubai is welcome to all."</p>--}}
+                                                        {{--<p>"My parking lot in B2117."</p>--}}
                                                     {{--</div>--}}
                                                 {{--</div>--}}
                                                 {{--<div class="col-xs-6 col-sm-6 col-md-6">--}}
                                                     {{--<div class="dashboard-right">--}}
                                                         {{--<p>Penthouse overlooking the water</p>--}}
-                                                        {{--<span>$30/night</span>--}}
-                                                        {{--<h3>Dubai, UAE</h3>--}}
+                                                        {{--<span>P250/ 24hours</span>--}}
+                                                        {{--<h3>Marantina, Calathea Place</h3>--}}
                                                         {{--<img src="images/sec1image2.jpg"/>--}}
                                                         {{--<div class="list">--}}
                                                             {{--<a href="#">List</a>--}}
@@ -126,12 +125,12 @@
                     <div class="row">
                         <div class="col-md-8 col-md-push-4">
                             <div class="host-first-left">
-                                <h2 id="communicate">Guest find your home and request to book</h2>
+                                <h2 id="communicate">Guest find your parking list and request to book</h2>
                                 <h3>Once a guest comes across your listing, they’ll request to book your place for specified dates.</h3>
                                 <ul>
                                     <li>Once a guest sends you a reservation request, you’ll be prompted via email, sms, or dashboard message.</li>
                                     <li>You will then be able to message the guest, getting to know them better and eventually make the decision to accept or reject the request.</li>
-                                    <li>If you accept, you will make plans to receive the guest according to our Host ethics guidelines.</li>
+                                    <li>If you accept, an email notification is sent to the property management office for the car information to be forwarded to the security office</li>
                                 </ul>
                             </div>
 
@@ -140,10 +139,10 @@
                             <div class="host-first-right mobile-text">
                                 <img src="images/mobile.png"/>
                                 {{--<div class="green-text-mobile">--}}
-                                    {{--<p>Salaam! We'd love to book your place for Eid.</p>--}}
+                                    {{--<p>Hello! We'd love to book your parking lot for today.</p>--}}
                                 {{--</div>--}}
                                 {{--<div class="blue-text-mobile">--}}
-                                    {{--<p>Wasalaam! Sure. Book when you're ready. You'll love the place.</p>--}}
+                                    {{--<p>Hello! Sure. Book when you're ready. It's available.</p>--}}
                                 {{--</div>--}}
                             </div>
                         </div>
@@ -156,11 +155,10 @@
                         <div class="col-md-7">
                             <div class="host-first-left">
                                 <h2 id="welcome">Your guest arrives!</h2>
-                                <h3>This is where your superb hospitality is on full-display. Show them what you’re made of!</h3>
                                 <ul>
-                                    <li>Everything you’ve done previously should lead up to a smooth stay for your guest.</li>
+                                    <li>Everything is done automatically.</li>
                                     <li>All guests pay electronically before their stay so no need to collect any money.</li>
-                                    <li>Your payment is automatically deposited into the account of your choosing 24 hours after your guest’s check-in date. Muzbnb charges 7.5% host service fee on each reservation.</li>
+                                    <li>Your payment is automatically deposited into the account of your choosing 24 hours after your guest’s check-out date. DMIpark will not charge service fee reservation.</li>
                                 </ul>
                             </div>
                         </div>
@@ -174,12 +172,12 @@
                     <img src="images/mobile-hand.png"/>
                 </div>
             </div>
-       
+
     </section>
     <section class="last-section-host">
         <div class="container">
             <div class="ready-host">
-                <h2>Ready to become a host?</h2>
+                <h2>Ready to Earn?</h2>
                 @if(Auth::user())
                     <a href="{{ route('add-listing') }}" >Start Hosting </a>
                 @else
