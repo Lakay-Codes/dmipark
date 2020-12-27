@@ -91,7 +91,7 @@
                 <div class="logo">
                     <a href="/">
 {{--                        <img src="{{ url('style/assets')}}/img/muzbnb-logo1.svg" alt="Logo">--}}
-                        <img src="{{ url('')}}/images/Muzbnb Logo.png" alt="Logo" style="width: auto;height: 40px;">
+                        <img src="{{ url('')}}/images/dmilogo.png" alt="Logo" style="width: auto;height: 40px;">
                     </a>
                 </div>
                 <div class="nav-button">
@@ -188,7 +188,7 @@
                         <a href="javascript:;" class="login-btn">login &nbsp;/&nbsp;</a>
                         <a href="javascript:;" class="signup-btn">signup</a>
 
-                        
+
                         {{--<a href="" data-toggle="modal" data-target="#signup-social">signup</a>--}}
                     </div>
                 </div>
