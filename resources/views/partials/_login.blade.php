@@ -9,7 +9,7 @@
 <div class="modal fade form" id="login">
     <div class="model-vertical">
         <div class="modal-dialog modal-sm" role="document">
-            <div class="logo-icon text-center"><img src="{{ url('style/assets') }}/img/logo-icon.svg" alt="logo icon"></div>
+            <div class="logo-icon text-center"><img src="{{ url('style/assets') }}/img/logo2.png" alt="logo icon"></div>
             <div class="modal-content modalHeight" id="login_form">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><img src="{{ url('style/assets') }}/img/close.svg" alt="close"></button>
@@ -23,7 +23,7 @@
                             <div class="form-group">
                                 <label>Sign in with your e-mail address</label>
                                 <span class="input-group-addon"><img src="{{ url('style/assets') }}/img/mail.svg" alt="mail"></span>
-                                <input type="email" name="email" id="username" tabindex="1" class="form-control" placeholder="MUZ@MUZBNB.COM" value="">
+                                <input type="email" name="email" id="username" tabindex="1" class="form-control" placeholder="dmi@DMIpark.COM" value="">
                                 <input type="hidden" name="redirectToField" id="redirectToField" value="">
                             </div>
                             <div class="form-group">
@@ -72,7 +72,7 @@
 <div class="modal fade form" id="signup-social">
     <div class="model-vertical">
         <div class="modal-dialog modal-sm" role="document">
-            <div class="logo-icon text-center"><img src="{{ url('style/assets') }}/img/logo-icon.svg" alt="logo icon"></div>
+            <div class="logo-icon text-center"><img src="{{ url('style/assets') }}/img/logo2.png" alt="logo icon"></div>
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><img src="{{ url('style/assets') }}/img/close.svg" alt="close"></button>
@@ -92,7 +92,7 @@
                     <div class="form-group">
                         <input type="submit" name="login-submit" id="signup-submit" data-dismiss="modal" tabindex="4" class="form-control btn btn-login"  value="Sign up with email">
                     </div>
-                    <p class="terms-text">By signing up I agree to Muzbnb’s <br><a href="#">Terms & Policies</a></p>
+                    <p class="terms-text">By signing up I agree to DMIpark’s <br><a href="#">Terms & Policies</a></p>
                 </div>
                 <div class="modal-footer">
                     <div class="login">
@@ -108,7 +108,7 @@
 <div class="modal fade form" id="signup">
     <div class="model-vertical signup-inner">
         <div class="modal-dialog modal-lg" role="document">
-            <div class="logo-icon text-center"><img src="{{ url('style/assets') }}/img/logo-icon.svg" alt="logo icon"></div>
+            <div class="logo-icon text-center"><img src="{{ url('style/assets') }}/img/logo2.png" alt="logo icon"></div>
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close close-fad" data-dismiss="modal" aria-label="Close"><img src="{{ url('style/assets') }}/img/close.svg" alt="close"></button>
@@ -235,7 +235,7 @@
                         <li class="linkedin"><a href="{{ url('login/linkedin') }}" ><img src="{{ url('style/assets') }}/img/linkedin-social.png" alt="linkedin"></a></li>
                         <li class="google-plus"><a href="{{ url('login/google') }}"><img src="{{ url('style/assets') }}/img/google-plus-social.png" alt="google plus"></a></li>
                     </ul>
-                    <p class="terms-text">By signing up I agree to Muzbnb’s <a href="#">Terms &amp; Policies</a></p>
+                    <p class="terms-text">By signing up I agree to DMIpark’s <a href="#">Terms &amp; Policies</a></p>
                 </div>
             </div>
         </div>
@@ -247,7 +247,7 @@
 <div class="modal fade form" id="confirm_password" data-backdrop="static">
     <div class="model-vertical">
         <div class="modal-dialog modal-sm" role="document">
-            <div class="logo-icon text-center"><img src="{{ url('style/assets') }}/img/logo-icon.svg" alt="logo icon"></div>
+            <div class="logo-icon text-center"><img src="{{ url('style/assets') }}/img/logo2.png" alt="logo icon"></div>
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close redirect-home" data-home="{{ route('home') }}"><img src="{{ url('style/assets') }}/img/close.svg" alt="close"></button>
